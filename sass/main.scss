@@ -1,11 +1,14 @@
 // * Basic settings
 @import "./base/reset";
-@import "./base/common";
-@import "./utils/mixin";
-@import "./utils/placeholders";
 @import "./utils/vars";
+@import "./utils/mixin";
+@import "./base/common";
+@import "./utils/placeholders";
 @import "./utils/visually-hidden";
+
 // * Fonts
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500&display=swap);
+
 // * Components
 @import "./components/header";
+@import "./components/burger-menu";

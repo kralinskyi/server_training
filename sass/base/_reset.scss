@@ -17,8 +17,6 @@ li {
 }
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 h1,
 h2,
@@ -43,6 +41,7 @@ input {
   font-family: inherit;
 }
 button {
+  border: none;
   cursor: pointer;
   background-color: inherit;
 }

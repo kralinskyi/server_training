@@ -3,14 +3,15 @@ body {
   font-weight: 300;
   line-height: 1.5;
 
-  color: #9c9c9c;
-  background-color: #0d0d11;
+  background-color: $main-bg;
+  color: $text-color;
 }
 
 .wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: clip;
 }
 
 [class*="__container"] {
@@ -21,4 +22,28 @@ body {
 
 .page {
   flex: 1 1 auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 16px 30px;
+  border-radius: 50px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 2px;
+
+  background-color: $button-bg;
+  color: $title-color;
+
+  @include transition(background-color);
+
+  &:hover {
+    background-color: $button-hover;
+  }
+
+  @media (max-width: 991.98px) {
+    padding: 14px 20px;
+  }
 }

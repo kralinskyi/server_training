@@ -10,19 +10,41 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-          distinctio quis, libero quaerat aspernatur necessitatibus!
-          Consequuntur soluta, totam cupiditate ipsa ipsum modi dolores suscipit
-          praesentium exercitationem reprehenderit alias! Quia voluptates
-          molestias veritatis fugiat voluptas repudiandae provident nesciunt in
-          maxime nostrum necessitatibus, eaque, quam fugit! Cupiditate magni
-          quod porro sed aspernatur!
-        </p>
+        <div class="header__container">
+          <a href="" class="header__logo">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+          <nav class="header__menu menu">
+            <div class="menu-burger">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Pages</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Services</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <a href="" class="header__cart cart-header">
+            <span class="cart-header__text">Cart</span>
+            <span class="cart-header__quantity">0</span>
+          </a>
+          <a class="header__button button">Get started</a>
+          <button class="menu__icon icon-menu" type="button">
+            <span></span>
+          </button>
+        </div>
       </header>
       <main class="page"></main>
       <footer class="footer"></footer>
     </div>
-    <!-- <script src="./js/"></script> -->
+    <script src="./js/menu-burger.js"></script>
   </body>
 </html>

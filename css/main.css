@@ -110,6 +110,11 @@ body {
     padding: 14px 20px;
   }
 }
+@media (max-width: 330px) {
+  .button {
+    padding: 10px 15px;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -187,6 +192,10 @@ body {
   background: rgba(129, 129, 139, 0.3);
 }
 
+.cart-icon {
+  display: none;
+}
+
 .header__button {
   flex: 0 0 auto;
 }
@@ -221,6 +230,15 @@ body {
   }
   .cart-header__text {
     display: none;
+  }
+  .cart-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: #3d96f4;
+  }
+  .header__container {
+    column-gap: 10px;
   }
 }
 .icon-menu {

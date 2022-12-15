@@ -85,6 +85,10 @@
   background: $cart-bg;
 }
 
+.cart-icon {
+  display: none;
+}
+
 .header__button {
   flex: 0 0 auto;
 }
@@ -123,5 +127,16 @@
 
   .cart-header__text {
     display: none;
+  }
+
+  .cart-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: $button-bg;
+  }
+
+  .header__container {
+    column-gap: 10px;
   }
 }

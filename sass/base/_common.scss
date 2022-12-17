@@ -24,6 +24,9 @@ body {
   flex: 1 1 auto;
 }
 
+.page__main {
+}
+
 .button {
   display: inline-block;
   padding: 16px 30px;
@@ -50,4 +53,17 @@ body {
   @media (max-width: 330px) {
     padding: 10px 15px;
   }
+}
+
+.button--dark {
+  padding: 16px 32px;
+
+  background: $button-bg-dark;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+}
+
+.main {
 }

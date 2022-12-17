@@ -1,5 +1,13 @@
+// ! Не можу зафіксувати..
+
 .header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: $main-bg-light;
 }
+
 .header__container {
   display: flex;
   align-items: center;
@@ -13,7 +21,7 @@
 }
 
 .header__menu {
-  flex: 1 0 auto;
+  flex: 0 1 auto;
 }
 .menu {
 }

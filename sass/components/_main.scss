@@ -1,0 +1,137 @@
+.section {
+  padding-top: 160px;
+  @media (max-width: 991.98px) {
+    padding-top: 120px;
+  }
+  @media (max-width: 767.98px) {
+    padding-top: 100px;
+  }
+}
+
+.hero__section {
+}
+
+.section__container {
+  display: flex;
+  gap: 32px;
+
+  @media (max-width: 767.98px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.section__content {
+  flex: 0 1 50%;
+  padding-top: 10%;
+
+  @media (max-width: 991.98px) {
+    padding-top: 8%;
+  }
+  @media (max-width: 767.98px) {
+    padding-top: 5%;
+  }
+}
+
+.hero__title {
+  position: relative;
+  max-width: 506px;
+  margin-bottom: 28px;
+
+  font-weight: 500;
+  font-size: 51px;
+  line-height: 1.2;
+
+  color: $title-color;
+
+  &::before {
+    content: "";
+    width: 122px;
+    height: 122px;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    background: url(/img/dots.svg);
+  }
+
+  @media (max-width: 991.98px) {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767.98px) {
+    font-size: 38px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+}
+
+.title__text {
+  max-width: 500px;
+  margin-bottom: 33px;
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: $text-color;
+
+  @media (max-width: 991.98px) {
+    margin-bottom: 23px;
+
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+.section__actions {
+  display: flex;
+  column-gap: 10%;
+
+  @media (max-width: 991.98px) {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 767.98px) {
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: center;
+  }
+}
+
+.hero-button {
+  min-width: 160px;
+}
+
+.hero__button:first-of-type {
+  padding: 18px 25px;
+
+  @media (max-width: 767.98px) {
+    padding: 14px 20px;
+  }
+}
+
+.section__images {
+  flex: 0 1 50%;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    max-width: 100%;
+  }
+}
+
+.images-section {
+  display: flex;
+  gap: 10%;
+}
+
+.images-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.images-section__item {
+}

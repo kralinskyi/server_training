@@ -1,0 +1,33 @@
+.clients {
+}
+.section {
+}
+.section__container {
+}
+
+.clients__container {
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 24px;
+}
+
+.clients__title {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: $title-color;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.clients__list-item {
+}
+.clients__link {
+}
